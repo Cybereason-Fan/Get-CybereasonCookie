@@ -1,7 +1,7 @@
 Function global:Get-CybereasonCookie {
 <#
 .SYNOPSIS
-Authenticates to an on-premises Cybereason API and returns a valid cookie
+Authenticates to an on-premises Cybereason API and returns a cookie
 .DESCRIPTION
 Generate a session cookie (32 character string) which you can use for the next 8 hours for all subsequent calls to the Cybereason on-premises API
 .PARAMETER server_fqdn
