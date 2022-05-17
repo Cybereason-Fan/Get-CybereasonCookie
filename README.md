@@ -1,4 +1,4 @@
-# [Get-CybereasonCookie 1.0.0](https://github.com/Cybereason-Fan/Get-CybereasonCookie)
+# [Get-CybereasonCookie 1.0.1](https://github.com/Cybereason-Fan/Get-CybereasonCookie)
 
 ### Authenticates to an on-premises Cybereason API and returns a cookie 🍪
 > Requires an account on an on-premises Cybereason management console
@@ -20,6 +20,11 @@ DESCRIPTION
 ``` 
 
 ❓ Not sure what to do with your cookie? Use it with tools such as [Get-CybereasonSensors](https://github.com/Cybereason-Fan/Get-CybereasonSensors)
+
+## 1.0.1
+
+Change - The cookie should be returned (not writen to host) when using -JustGiveMeTheCookie
+
 
 ## 1.0.0
 

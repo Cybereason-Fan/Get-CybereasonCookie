@@ -190,7 +190,7 @@ https://github.com/Cybereason-Fan/Get-CybereasonCookie
     [datetime]$session_timestamp = $cookie.Timestamp
     [string]$session_timestamp_display = Get-Date -Date $session_timestamp -Format 'yyyy-MM-dd HH:mm:ss'
     If ( $JustGiveMeTheCookie -eq $true) {
-        Write-Host $session_id
+        Return $session_id
     }
     ElseIf ( $NoFormatting -eq $true) {
         Write-Host ""
